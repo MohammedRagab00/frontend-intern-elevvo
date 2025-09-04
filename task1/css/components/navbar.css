@@ -1,0 +1,27 @@
+.navbar-container {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 24px;
+
+  z-index: 20;
+}
+
+.navbar-sidebar-show-button {
+  font-size: 24px;
+
+  color: #2f2f2f;
+
+  cursor: pointer;
+}
+
+.navbar-sidebar-show-button:hover {
+  color: #f8b500;
+}

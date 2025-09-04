@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Task 1 - Collapsible Sidebar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/default/default.css" />
+    <link rel="stylesheet" href="/css/pages/index.css" />
+    <link rel="stylesheet" href="/css/components/navbar.css" />
+    <link rel="stylesheet" href="/css/components/sidebar.css" />
+
+    <!--* this is for the arrow icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <img
+          class="navbar-sidebar-logo"
+          src="https://elevvo.tech/assets/nav_logo-5vkEKoZL.svg"
+          alt="Elevvo logo"
+        />
+        <i class="navbar-sidebar-show-button fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="sidebar-overlay"></div>
+      <div class="sidebar-container">
+        <div class="sidebar-top-row">
+          <img
+            class="navbar-sidebar-logo"
+            src="https://elevvo.tech/assets/nav_logo-5vkEKoZL.svg"
+            alt="Elevvo logo"
+          />
+          <i class="navbar-sidebar-hide-button fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="sidebar-menu">
+          <a class="sidebar-menu-item" href="/">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+          <a class="sidebar-menu-item" href="/link1">
+            <i class="fa-solid fa-link"></i> Link 1
+          </a>
+          <a class="sidebar-menu-item" href="/link2">
+            <i class="fa-solid fa-link"></i> Link 2
+          </a>
+          <a class="sidebar-menu-item" href="/link3">
+            <i class="fa-solid fa-link"></i> Link 3
+          </a>
+          <a class="sidebar-menu-item" href="/link4">
+            <i class="fa-solid fa-link"></i> Link 4
+          </a>
+        </div>
+      </div>
+      <img
+        class="logo"
+        src="https://elevvo.tech/assets/nav_logo-5vkEKoZL.svg"
+        alt="elevvopaths logo"
+      />
+    </div>
+    <script src="/js/sidebar.js"></script>
+  </body>
+</html>
