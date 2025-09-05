@@ -1,0 +1,97 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("https://elevvo.tech/assets/nav_logo-5vkEKoZL.svg");
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+  margin: 0;
+}
+
+#overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgba(218, 165, 32, 0.2);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+form {
+  max-width: 550px;
+  width: 90%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid #daa520;
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #daa520;
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: linear-gradient(to right, #daa520, #e6b800);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #e6b800, #daa520);
+}
+
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+#success {
+  color: #daa520;
+}

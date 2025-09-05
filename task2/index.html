@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Task 2 - Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <form action="" onsubmit="event.preventDefault(); validateForm()">
+        <h1>Contact Us</h1>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="e.g. John Doe" name="name" />
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          placeholder="e.g. john@example.com"
+          name="email"
+        />
+        <small class="error"></small>
+
+        <label for="subject">Subject:</label>
+        <input
+          type="text"
+          id="subject"
+          placeholder="What’s your message about?"
+          name="subject"
+        />
+        <small class="error"></small>
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          placeholder="Write your message here..."
+          rows="6"
+          name="message"
+        ></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+          <input type="submit" value="Send Message" />
+          <p id="success"></p>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
